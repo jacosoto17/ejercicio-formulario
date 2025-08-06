@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <form action="/registro_exitoso.html" method="get">
+        <fieldset>
+            <legend>Ingresa tus datos</legend>
+
+            <label for="sociedad">Tipo Sociedad</label>
+            <select type="text" id="sociedad" name="sociedad">
+                <option value="Natural">Persona Natural</option>
+                <option value="Juridica">Persona Juridica</option>
+            </select>
+            <br><br>
+            <label for="documento">Tipo de documento</label>
+            <select type="text" name="text" id="text">
+                <option value="cedula">Cedula de ciudadania</option>
+                <option value="pasaporte">Pasaporte</option>
+                <option value="nit">NIT</option>
+                <option value="extrangeria">Cedula Extrangeria</option>
+            </select>
+            <br><br>
+            <label for="numero">Numero de identificacion</label>
+            <input type="number" id="numero" name="numero">
+            <br><br>
+            <label for="nombre">Nombre o razón social</label>
+            <div class="nombre">
+                <input type="text" id="nombre" name="nombre">
+                <br><br>
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" name="apellido" placeholder="Apellido">
+            </div>
+
+            <br><br>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" placeholder="Mínimo 8 caracteres">
+            <br><br>
+            <label for="sector">Sector</label>
+            <select type="text" name="sector" id="sector">
+                <option value="cedula">Servicios</option>
+                <option value="pasaporte">Comercio</option>
+                <option value="nit">Industria</option>
+            </select>
+            <br><br>
+            <label for="empresa">Tipo Empresa</label>
+            <select type="text" name="empresa" id="empresa">
+                <option value="micro">Micro</option>
+                <option value="pequeña">Pequeña</option>
+                <option value="mediana">Mediana</option>
+                <option value="grande">Grande</option>
+                <option value="otros">Otros</option>
+            </select>
+            <br><br>
+
+            <button type="submit">Registrar</button>
+            <button type="reset">Limpiar formulario</button>
+        </fieldset>
+    </form>
+    <br><br>
+</body>
+
+</html>

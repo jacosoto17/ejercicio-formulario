@@ -1,0 +1,77 @@
+body {
+      background-color: #3c1222;
+      color: #9f5a5a;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    fieldset {
+      border: 2px solid #511212;
+      background-image: url(/images/rosa.jpg);
+      background-size: cover;
+        background-position: center;
+      border-radius: 20px;
+      padding: 20px;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input, select, textarea {
+      width: 90%;
+      padding: 10px;
+      margin: 10px auto;
+      display: block;
+      border-radius: 5px;
+      border: none;
+      background-color: #9d3737;
+      color: white;
+    }
+
+    button {
+      margin: 10px 5px;
+      padding: 10px 20px;
+      background-color: #444;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #b82424;
+    }
+
+    a {
+      color: rgb(214, 14, 14);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .nav-buttons {
+      margin-top: 20px;
+    }
+
+    .nav-buttons a {
+      display: inline-block;
+      background-color: #444;
+      padding: 10px 20px;
+      margin: 5px;
+      border-radius: 5px;
+    }
+
+    .nav-buttons a:hover {
+      background-color: #666;
+    }
